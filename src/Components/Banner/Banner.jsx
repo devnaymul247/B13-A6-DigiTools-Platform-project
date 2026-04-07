@@ -14,11 +14,11 @@ const Banner = () => {
                         New: AI-Powered Tools Available
                     </div>
 
-                    <h1 className='text-7xl font-extrabold text-[#101727]'>
+                    <h1 className='text-5xl md:text-7xl font-extrabold text-[#101727]'>
                         Supercharge Your <br /> Digital Workflow
                     </h1>
 
-                    <div className='flex gap-4'>
+                    <div className='flex gap-4 my-8 lg:my-2.5'>
                         <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full border border-[#4F39F6] 
                          hover:bg-linear-to-r hover:from-white hover:to-white hover:text-[#4F39F6]">
                             Explore Products
