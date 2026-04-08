@@ -1,12 +1,13 @@
-# React + Vite
+Name of your Project:
+=> DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A little Description:
+=> A one page case study project, where the main functionality is keeping tool into card before buying. it has some other section with responsive layout with header and footer.
 
-Currently, two official plugins are available:
+Technology that you use:
+=> vite, react, tailwind, daisyUI, react toastify etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3 Features about your project:
+=> 1. you choose tool from the product tab and it will be added to cart tab.
+2. when you choose or click buy now button, you will see a toast notification on the top-right side.
+3. you can delete any choosed product from the cart tab by clicking delete button.

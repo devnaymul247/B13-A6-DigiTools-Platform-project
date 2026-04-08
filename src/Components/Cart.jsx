@@ -23,8 +23,8 @@ const Cart = ({ carts, setCarts }) => {
                     carts.length === 0 ? <p className="text-center text-3xl text-[#627382] m-15">Your Cart Is Empty</p> : <>
                         <div className="space-y-4 mt-10">
                             {
-                                carts.map((item) => (
-                                    <div className="flex justify-between items-center bg-[#F9FAFC] border-[#F2F2F2] border-2 rounded-lg p-5">
+                                carts.map((item, index) => (
+                                    <div key={index} className="flex justify-between items-center bg-[#F9FAFC] border-[#F2F2F2] border-2 rounded-lg p-5">
                                         <div className="flex gap-3.5 items-center">
                                             <div>
                                                 <span className='border-2 border-gray-300 p-2 rounded-full'>{item.icon}</span>

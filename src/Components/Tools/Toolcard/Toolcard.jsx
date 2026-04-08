@@ -18,7 +18,7 @@ const Toolcard = ({tool, carts, setCarts}) => {
         toast.success('Item added to cart!')
     }
     return (
-        <div key={tool.id} className='shadow-lg p-10 rounded-lg space-y-3 border-[#F2F2F2] border-2'>
+        <div className='shadow-lg p-10 rounded-lg space-y-3 border-[#F2F2F2] border-2'>
             <div className={`float-right badge badge-soft ${tool.tag == "popular" ? "badge-primary" : tool.tag == "best seller" ? "badge-warning" : tool.tag == "new" ? "badge-success" : ""}`}> {tool.tag.toUpperCase()} </div>
             <div className='mt-3'> <span className='border-2 border-gray-300 p-3 rounded-full'><span className="text-xl w-6 h-6">{tool.icon}</span></span> </div>
             <div className="mt-8">
@@ -29,7 +29,7 @@ const Toolcard = ({tool, carts, setCarts}) => {
             <div>
                 <ul className='space-y-3 mt-2.5'>
                     {
-                        tool.features.map(feature => <li className='flex items-center gap-2.5 text-[#627382] '><FaCheck className='text-green-500' /> {feature}</li>)
+                        tool.features.map((feature, index) => <li key={index} className='flex items-center gap-2.5 text-[#627382] '><FaCheck className='text-green-500' /> {feature}</li>)
                     }
                 </ul>
             </div>
