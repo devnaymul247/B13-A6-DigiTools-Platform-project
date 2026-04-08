@@ -29,7 +29,7 @@ function App() {
         <h2 className='text-5xl font-extrabold text-[#101727] text-center mb-2.5'>Premium Digital Tools</h2>
         <p className='text-[#627382] text-center'>Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
       </div>
-      
+
       {/* tab button */}
       <div className="tabs tabs-box justify-center py-10 bg-transparent">
         <input
@@ -53,7 +53,6 @@ function App() {
       {activeTab === "products" && <Tools cartsPromis={cartsPromis} carts={carts} setCarts={setCarts}></Tools> }
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
       
-
       <Getstarted></Getstarted>
       <Pricing></Pricing>
       <Footer></Footer>

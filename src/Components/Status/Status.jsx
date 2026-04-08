@@ -19,8 +19,6 @@ const Status = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 };
