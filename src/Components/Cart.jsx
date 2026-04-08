@@ -27,7 +27,7 @@ const Cart = ({ carts, setCarts }) => {
                                     <div key={index} className="flex justify-between items-center bg-[#F9FAFC] border-[#F2F2F2] border-2 rounded-lg p-5">
                                         <div className="flex gap-3.5 items-center">
                                             <div>
-                                                <span className='border-2 border-gray-300 p-2 rounded-full'>{item.icon}</span>
+                                                <span className='border-2 border-gray-300 p-3 rounded-full'><span className="text-xl w-6 h-6">{item.icon}</span></span>
                                             </div>
                                             <div>
                                                 <h4 className="text-[#101727] font-semibold ">{item.name}</h4>
